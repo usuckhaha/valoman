@@ -1,5 +1,3 @@
-﻿
-
 import java.awt.Container;
 import java.awt.BorderLayout;
 import javax.swing.JPanel;

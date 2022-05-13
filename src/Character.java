@@ -12,5 +12,4 @@ public abstract class Character {
     public int getHp(){ return hp; }
     public void takeDmg(int dmg){ hp-=dmg; }
     public abstract void eatFruit();
-    public hi;
 }
