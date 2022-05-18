@@ -1,6 +1,8 @@
 import javax.swing.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
-public class UserPanel extends JPanel implements JavaArcade {
+public class UserPanel extends JPanel implements JavaArcade, KeyListener {
     public static final String gameName = "Valoman";
     public boolean pause;
     public UserPanel(int x, int y){
@@ -57,6 +59,21 @@ public class UserPanel extends JPanel implements JavaArcade {
 
     @Override
     public void setDisplay(GameStats d) {
+
+    }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
 
     }
 }

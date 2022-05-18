@@ -1,9 +1,9 @@
 import java.awt.*;
 
 public abstract class Character {
-    protected int hp, r, speed;
-    protected Graphics shape;
-    protected Color color;
+    protected int hp, r, speed, row, col;  //row and col values that go in the map array to get x and y
+    protected Graphics shape;  //they're all circles lol
+    protected Color color;   //it changes depending on the player's abilities or if it's a ghost
 
     public void draw(int x, int y){
         shape.setColor(color);
